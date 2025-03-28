@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Samuel Andrade Resende</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Adicionando o favicon -->
+    <style>
+        /* Variáveis CSS para facilitar alterações */
+        :root {
+            --cor-fundo: hsl(0, 0%, 95%); /* Fundo claro */
+            --cor-texto: hsl(0, 0%, 20%); /* Texto escuro */
+            --cor-container: hsl(0, 0%, 100%); /* Fundo do container */
+            --cor-titulo: hsl(0, 0%, 10%); /* Títulos mais escuros */
+            --cor-link: hsl(210, 100%, 40%); /* Azul para links */
+            --cor-link-hover: hsl(210, 100%, 30%); /* Azul mais escuro no hover */
+            --cor-item: hsl(0, 0%, 90%); /* Fundo dos itens */
+        }
+
+        /* Estilos globais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            font-size: 1rem; /* Medida relativa */
+            line-height: 1.6; /* Melhor espaçamento entre linhas */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: var(--cor-container);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: var(--cor-titulo);
+            font-family: 'Verdana', sans-serif;
+        }
+
+        h1 {
+            font-size: 2rem; /* Medida relativa */
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .contact-info p, .skills li, .education li, .languages li {
+            margin: 5px 0;
+        }
+
+        .skills, .education, .languages {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li, .education li, .languages li {
+            background: var(--cor-item);
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        img {
+            max-width: 20%; /* Medida relativa */
+            border-radius: 50%; /* Bordas arredondadas */
+            display: block;
+            margin: 0 auto;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: var(--cor-link);
+        }
+
+        nav a:hover {
+            color: var(--cor-link-hover);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Samuel Andrade Resende</h1>
+        <img src="sua_foto.jpg" alt="Foto de Samuel Andrade Resende">
+    </header>
+
+    <!-- Apresentação -->
+    <nav>
+        <h2>Apresentação</h2>
+        <p>
+            Olá, Sou Samuel, tenho 22 anos, estou no terceiro período de Sistema de Informação na instituição UniBH.
+            Estou à procura de uma oportunidade de estágio na área de TI. Tenho conhecimento em Java e estou aprendendo C#.
+            Sou proativo, dedicado e tenho experiência em trabalho em equipe. Estou à disposição para uma entrevista.
+        </p>
+    </nav>
+
+    <!-- Formação -->
+    <main>
+        <div class="section" id="formacao">
+            <h2>Formação</h2>
+            <ul class="education">
+                <li>
+                    <h3>Sistema de Informação - Instituição UniBH</h3>
+                    <p>Período: 3º Período</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Linguagens de Programação -->
+        <div class="section" id="linguagens">
+            <h2>Linguagens de Programação</h2>
+            <ul class="skills">
+                <li>Java</li>
+                <li>C#</li>
+            </ul>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="section" id="idiomas">
+            <h2>Idiomas</h2>
+            <ul class="languages">
+                <li>Português - Nativo</li>
+                <li>Inglês - Básico</li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- Contato -->
+    <footer>
+        <div class="section" id="contato">
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:samuelcairole@gmail.com">samuelcairole@gmail.com</a></p>
+                <p>Telefone: <a href="tel:+5531983262487">(31) 98326-2487</a></p>
+                <p>Github: <a href="https://github.com/Resende99" target="_blank">github.com/Resende99</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/samuel-andrade-resende-799b302b" target="_blank">linkedin.com/in/samuel-andrade-resende-799b302b</a></p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
